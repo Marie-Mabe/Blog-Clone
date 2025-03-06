@@ -9,7 +9,7 @@ export default async function RoutePage() {
       <p className="mt-2">
         Retourner à{" "}
         <Link href="/" className="text-primary hover:underline">
-          l'accueil
+          Accueil
         </Link>
       </p>
     </div>
