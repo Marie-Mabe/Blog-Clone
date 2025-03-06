@@ -15,7 +15,7 @@ const PostSchema = z.object({
     published: z.boolean().optional().default(false),
 });
 
-type Post = z.infer<typeof PostSchema> & {
+export type Post = z.infer<typeof PostSchema> & {
     slug: string;
     content: string;
 }
